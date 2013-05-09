@@ -1,0 +1,315 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     10179,        305]
+NotebookOptionsPosition[      9124,        262]
+NotebookOutlinePosition[      9475,        278]
+CellTagsIndexPosition[      9432,        275]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"4", "+", "3"}]], "Input",
+ CellChangeTimes->{{3.577120131433806*^9, 3.57712013287987*^9}}],
+
+Cell[BoxData["7"], "Output",
+ CellChangeTimes->{3.577120134007113*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"r", "^", "2"}], "+", 
+   RowBox[{"2", "r"}], "+", "1"}], "=", "0"}]], "Input",
+ CellChangeTimes->{{3.5771201619376507`*^9, 3.5771201801259403`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Set", "::", "write"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Tag \[NoBreak]\\!\\(Plus\\)\[NoBreak] in \[NoBreak]\\!\\(1 \
++ \\(\\(2\\\\ r\\)\\) + r\\^2\\)\[NoBreak] is Protected. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/write\\\", \
+ButtonNote -> \\\"Set::write\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.5771201809771643`*^9}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{{3.577120174231854*^9, 3.577120181052722*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"d", " ", "=", " ", 
+  RowBox[{
+   RowBox[{"3", "x"}], " ", "+", " ", "5"}]}]], "Input",
+ CellChangeTimes->{{3.5771203189362583`*^9, 3.577120328710658*^9}}],
+
+Cell[BoxData[
+ RowBox[{"5", "+", 
+  RowBox[{"3", " ", "x"}]}]], "Output",
+ CellChangeTimes->{3.5771203376382227`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"f", " ", "=", " ", 
+  RowBox[{
+   RowBox[{"6", "x"}], "-", "3"}]}]], "Input",
+ CellChangeTimes->{{3.577120339263088*^9, 3.577120342221693*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", "3"}], "+", 
+  RowBox[{"6", " ", "x"}]}]], "Output",
+ CellChangeTimes->{3.577120345902032*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"d", "-", "f"}]], "Input",
+ CellChangeTimes->{{3.57712034680634*^9, 3.5771203473413267`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"8", "-", 
+  RowBox[{"3", " ", "x"}]}]], "Output",
+ CellChangeTimes->{3.577120347868236*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"a0", "=", "1"}], ";", " ", 
+    RowBox[{"f0", "=", "10"}], ";", 
+    RowBox[{"\[Phi]0", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"A", "=", "3"}], ";", " ", 
+     RowBox[{"f", "=", "3"}], ";"}], ",", " ", 
+    RowBox[{
+     RowBox[{"\[Phi]", "=", "0"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"A", " ", 
+          RowBox[{"Sin", "[", 
+           RowBox[{
+            RowBox[{"f", " ", "t"}], " ", "+", " ", "\[Phi]"}], "]"}]}], ",", 
+         " ", 
+         RowBox[{"a0", " ", 
+          RowBox[{"Sin", " ", "[", 
+           RowBox[{
+            RowBox[{"f0", " ", "t"}], " ", "+", " ", "\[Phi]0"}], "]"}]}]}], 
+        "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", " ", "0", ",", " ", "10"}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PlotRange", "\[Rule]", " ", "2"}]}], "]"}]}]}]}]}]], "Input",
+ CellChangeTimes->{{3.577121019722883*^9, 3.577121185519587*^9}, {
+  3.5771212705787907`*^9, 3.57712129430567*^9}, {3.57712136918231*^9, 
+  3.5771213929647207`*^9}},
+ EmphasizeSyntaxErrors->True],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Syntax", "::", "tsntxi"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\\\"\[NoBreak]\\!\\(\\(\\(\\(\\(A = 3\\)\\) ; \\(\\(f = \
+3\\)\\) ;\\)\\), \\(\\(\\(\\(\[Phi] = 0\\)\\) ; \
+\\(\\(Plot[\\(\\(\\(\\({\\(\\(A \\(\\(Sin[\\(\\(\\(\\(f t\\)\\) + \
+\[Phi]\\)\\)]\\)\\)\\)\\), \\(\\(a0 \\(\\(Sin[\\(\\(\\(\\(f0 t\\)\\) + \
+\[Phi]0\\)\\)]\\)\\)\\)\\)}\\)\\), \\(\\({t, 0, 10}\\)\\), \\(\\(PlotRange \
+\[Rule] 2\\)\\)\\)\\)]\\)\\)\\)\\)\\)\[NoBreak]\\\" is incomplete; more input \
+is needed.\[NoBreak]\\!\\(\\\"\\\"\\)\[NoBreak]\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.5771213967392263`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Syntax", "::", "sntxi"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Incomplete expression; more input is needed \
+\[NoBreak]\\!\\(\\\"\\\"\\)\[NoBreak].\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.577121396740394*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"a0", "=", "1"}], ";", " ", 
+    RowBox[{"f0", "=", "10"}], ";", 
+    RowBox[{"\[Phi]0", "=", "0"}], ";", "\[IndentingNewLine]", 
+    RowBox[{"Plot", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"A", " ", 
+         RowBox[{"Sin", "[", 
+          RowBox[{
+           RowBox[{"f", " ", "t"}], " ", "+", " ", "\[Phi]"}], "]"}]}], ",", 
+        " ", 
+        RowBox[{"a0", " ", 
+         RowBox[{"Sin", " ", "[", 
+          RowBox[{
+           RowBox[{"f0", " ", "t"}], " ", "+", " ", "\[Phi]0"}], "]"}]}]}], 
+       "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", " ", "0", ",", " ", "10"}], "}"}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"PlotRange", "\[Rule]", " ", "2"}]}], "]"}]}], ",", 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"A", ",", "a0", ",", "\"\<amplitude\>\""}], "}"}], ",", "0", 
+     ",", "2", ",", " ", 
+     RowBox[{"Appearance", " ", "\[Rule]", " ", "\"\<Labeled\>\""}]}], "}"}], 
+   "\[IndentingNewLine]", ",", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"f", ",", " ", "f0", ",", " ", "\"\<frequency\>\""}], "}"}], 
+     ",", " ", "0", ",", " ", "10", ",", " ", 
+     RowBox[{"Appearance", " ", "\[Rule]", " ", "\"\<Labeled\>\""}]}], "}"}], 
+   "\[IndentingNewLine]", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Phi]", ",", "\[Phi]0", ",", "\"\<intrinsic phase\>\""}], 
+      "}"}], ",", "0", ",", 
+     RowBox[{"2", " ", "Pi"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Appearance", " ", "\[Rule]", " ", "\"\<Labeled\>\""}]}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.577121448314683*^9, 3.577121615069063*^9}, {
+  3.577121658715056*^9, 3.577121667474532*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`A$$ = 1., $CellContext`f$$ = 
+    10., $CellContext`\[Phi]$$ = 0., Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`A$$], 1, "amplitude"}, 0, 2}, {{
+       Hold[$CellContext`f$$], 10, "frequency"}, 0, 10}, {{
+       Hold[$CellContext`\[Phi]$$], 0, "intrinsic phase"}, 0, 2 Pi}}, 
+    Typeset`size$$ = {360., {113., 117.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = True, $CellContext`A$676$$ = 
+    0, $CellContext`f$681$$ = 0, $CellContext`\[Phi]$682$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`A$$ = 1, $CellContext`f$$ = 
+        10, $CellContext`\[Phi]$$ = 0}, "ControllerVariables" :> {
+        Hold[$CellContext`A$$, $CellContext`A$676$$, 0], 
+        Hold[$CellContext`f$$, $CellContext`f$681$$, 0], 
+        Hold[$CellContext`\[Phi]$$, $CellContext`\[Phi]$682$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, 
+      "Body" :> ($CellContext`a0 = 1; $CellContext`f0 = 
+        10; $CellContext`\[Phi]0 = 0; 
+       Plot[{$CellContext`A$$ 
+          Sin[$CellContext`f$$ $CellContext`t + $CellContext`\[Phi]$$], \
+$CellContext`a0 
+          Sin[$CellContext`f0 $CellContext`t + $CellContext`\[Phi]0]}, \
+{$CellContext`t, 0, 10}, PlotRange -> 2]), 
+      "Specifications" :> {{{$CellContext`A$$, 1, "amplitude"}, 0, 2, 
+         Appearance -> "Labeled"}, {{$CellContext`f$$, 10, "frequency"}, 0, 
+         10, Appearance -> 
+         "Labeled"}, {{$CellContext`\[Phi]$$, 0, "intrinsic phase"}, 0, 2 Pi, 
+         Appearance -> "Labeled"}}, "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{403., {183., 189.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.5771216704600897`*^9}]
+}, Open  ]]
+},
+WindowSize->{740, 525},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 22, \
+2012)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 114, 2, 27, "Input"],
+Cell[696, 26, 70, 1, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[803, 32, 195, 5, 27, "Input"],
+Cell[1001, 39, 494, 10, 26, "Message"],
+Cell[1498, 51, 94, 1, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1629, 57, 179, 4, 27, "Input"],
+Cell[1811, 63, 117, 3, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1965, 71, 167, 4, 27, "Input"],
+Cell[2135, 77, 133, 4, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2305, 86, 116, 2, 27, "Input"],
+Cell[2424, 90, 115, 3, 27, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2576, 98, 1234, 34, 88, "Input"],
+Cell[3813, 134, 646, 12, 40, "Message"],
+Cell[4462, 148, 274, 7, 21, "Message"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4773, 160, 1866, 49, 148, "Input"],
+Cell[6642, 211, 2466, 48, 389, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
