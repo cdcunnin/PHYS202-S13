@@ -1,0 +1,57 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1313,         47]
+NotebookOptionsPosition[      1079,         34]
+NotebookOutlinePosition[      1416,         49]
+CellTagsIndexPosition[      1373,         46]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"v", " ", "=", " ", 
+  RowBox[{"sqrt", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"2", " ", "m", " ", "g"}], ")"}], "/", 
+     RowBox[{"(", "CpA", ")"}]}], ")"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"C", " ", "=", " ", "0.5"}], "\[IndentingNewLine]", 
+ RowBox[{"p", "=", "1.29"}], "\[IndentingNewLine]", 
+ RowBox[{"g", " ", "=", " ", "9.8"}]}], "Input",
+ CellChangeTimes->{{3.578102229654437*^9, 3.5781022776847486`*^9}, {
+  3.578104270713428*^9, 3.5781042890156803`*^9}}]
+},
+WindowSize->{740, 867},
+WindowMargins->{{Automatic, 224}, {Automatic, 30}},
+FrontEndVersion->"8.0 for Linux x86 (64-bit) (October 10, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 518, 12, 88, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
